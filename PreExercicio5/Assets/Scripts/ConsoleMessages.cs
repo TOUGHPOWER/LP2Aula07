@@ -12,12 +12,6 @@ public class ConsoleMessages : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnEnable()
     {
         em.KeyPress += ShowConsoleMessage;
